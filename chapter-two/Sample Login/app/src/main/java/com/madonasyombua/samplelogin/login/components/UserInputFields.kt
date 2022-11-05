@@ -23,7 +23,6 @@ import androidx.compose.ui.unit.sp
 import com.madonasyombua.samplelogin.R
 import com.madonasyombua.samplelogin.login.AuthenticationState
 import com.madonasyombua.samplelogin.util.TestTags
-import org.w3c.dom.Text
 
 @Composable
 fun UserNameField(
