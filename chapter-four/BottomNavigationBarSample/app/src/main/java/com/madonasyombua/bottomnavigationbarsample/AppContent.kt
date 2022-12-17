@@ -1,6 +1,5 @@
 package com.madonasyombua.bottomnavigationbarsample
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.wrapContentSize
@@ -9,14 +8,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun Transaction(){
+fun Transaction() {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -34,7 +32,7 @@ fun Transaction(){
 }
 
 @Composable
-fun Budget(){
+fun Budget() {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -52,7 +50,7 @@ fun Budget(){
 }
 
 @Composable
-fun Tasks(){
+fun Tasks() {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -70,7 +68,7 @@ fun Tasks(){
 }
 
 @Composable
-fun Settings(){
+fun Settings() {
     Column(
         modifier = Modifier
             .fillMaxSize()
