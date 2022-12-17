@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BottomNavigationBarSample</string>
+    <string name="title">Transactions</string>
+    <string name="transaction">Transaction Screen</string>
+    <string name="budget">Budget Screen</string>
+    <string name="tasks">Task Screen</string>
+    <string name="setting">Setting Scrren</string>
+</resources>
