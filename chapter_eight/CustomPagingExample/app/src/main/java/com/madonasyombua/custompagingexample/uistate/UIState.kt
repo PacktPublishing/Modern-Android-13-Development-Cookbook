@@ -2,6 +2,9 @@ package com.madonasyombua.custompagingexample.uistate
 
 import com.madonasyombua.custompagingexample.data.StudentProfile
 
+/**
+ *
+ */
 data class UIState(
     val page: Int = 0,
     val loading: Boolean = false,
