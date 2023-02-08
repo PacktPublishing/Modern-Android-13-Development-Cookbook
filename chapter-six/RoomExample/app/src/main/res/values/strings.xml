@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RoomExample</string>
+    <string name="enter_first_name">First Name</string>
+    <string name="enter_last_name">Last Name</string>
+    <string name="enter_third_task">DOB</string>
+    <string name="enter_gender">Gender</string>
+    <string name="enter_city">City</string>
+    <string name="enter_profession">Profession</string>
+    <string name="save">Save Data</string>
+    <string name="user_info">Hello and welcome to our Android application User Form.</string>
+</resources>
