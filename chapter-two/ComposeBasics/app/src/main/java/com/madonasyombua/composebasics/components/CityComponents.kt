@@ -18,6 +18,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.madonasyombua.composebasics.R
 import com.madonasyombua.composebasics.favoritecity.City
 import com.madonasyombua.composebasics.favoritecity.CityDataSource
 
@@ -41,7 +42,7 @@ fun CityCard(city: City) {
         Column {
             Image(
                 painter = painterResource(city.imageResourceId),
-                contentDescription = stringResource(city.nameResourceId),
+                contentDescription = stringResource(R.string.city_images),
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(154.dp),
