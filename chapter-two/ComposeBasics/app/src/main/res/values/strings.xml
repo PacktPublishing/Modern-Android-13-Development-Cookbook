@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Compose Basics</string>
+    <string name="sample">Enter Name</string>
+    <string name="shop">Shop Button</string>
+    <string name="buy">Button with Icon</string>
+    <string name="checkBox">Check Box</string>
+    <string name="image">Android Image</string>
+    <string name="elevated">Elevated Button</string>
+    <string name="cornerButton">Cut Corner Button</string>
+    <string name="rounded">Corner Rounded</string>
+    <string name="spain">Spain</string>
+    <string name="new_york">New York</string>
+    <string name="tokyo">Tokyo</string>
+    <string name="switzerland">Switzerland</string>
+    <string name="singapore">Singapore</string>
+    <string name="paris">Paris</string>
+    <string name="text">New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. \n\nIts iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square
+    A little over 8 million people live in New York City. That means 1 in every 38 people in the United States call the city home.
+More than 800 languages are spoken in New York City, making it the most linguistically diverse city in the world. \n\n4 in 10 households speak a language other than English.
+Oysters were so popular in New York in the 19th century that the shells were used to \n\npave Pearl Street. They were also used for lime for the masonry of the Trinity Church.
+France gifted the Statue of Liberty to the United States in 1886 for its centennial celebration. The statue was shipped as 350 pieces in 214 crates and took 4 months to assemble at its current home on Ellis Island.</string>
+</resources>
