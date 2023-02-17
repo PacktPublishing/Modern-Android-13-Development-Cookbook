@@ -9,7 +9,7 @@ import retrofit2.http.Query
  * "everything?q=apple&sortBy=popularity&apiKey=${YOURAPIKEY}&pageSize=20"
  */
 interface NewsApiService {
-    @GET("everything?q=apple&sortBy=popularity&apiKey=9acba2225f724bb09c87235d5f018714&pageSize=20")
+    @GET("everything?q=apple&sortBy=popularity&apiKey=&pageSize=20")
     suspend fun getNews(
         @Query("page") page: Int
     ): NewsArticleResponse
