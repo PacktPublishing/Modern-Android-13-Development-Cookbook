@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SampleLogin</string>
+    <string name="hello">Hello, Android Community</string>
+    <string name="enter_name">Enter Your Name</string>
+    <string name="password">Enter Your Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="toggle">Toggle Visibility Icon</string>
+    <string name="logo">Android Logo</string>
+    <string name="error">Sorry username can not contain special characters</string>
+    <string name="register">First time user? Sign UP</string>
+    <string name="create_password">Create Your Password</string>
+</resources>
