@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Traveller</string>
+    <string name="android_community">Android Community</string>
+    <string name="about_community">Welcome to the Android community!  The key to any community is communication. Like many projects, Android communicates through mailing lists. Because Android is an extremely large project with many components, we have many discussion forums, each focusing on a different topic. View the available groups and join any that seem interesting to you.  If you\'re a user looking for help with the Android UI or an Android device, details on Android updates or security issues, or how to build apps for Android, see the list of resources below.</string>
+    <string name="android_image">android image</string>
+    <string name="spain">Spain</string>
+    <string name="new_york">New York</string>
+    <string name="tokyo">Tokyo</string>
+    <string name="switzerland">Switzerland</string>
+    <string name="singapore">Singapore</string>
+    <string name="paris">Paris</string>
+    <string name="city_images">City Images</string>
+    <string name="traveller">A traveler Is anyone who travels to places other than the one in which is his habitual residence, outside of their everyday environment, for a period of at least one night but not more than one year and whose usual purpose is different from the exercise of any remunerated activity in the place to which he goes. Learn more in: \n\nA Business Model for Accessible Tourism2.Someone who travels for pleasure and recreation and exchange of culture. Learn more in: Application of Geospatial Mashups in Web GIS for Tourism Development3.The World trade organization (WTO) and the OECD Tourism committee established that international tourists should be classified by the purpose of their visit under one of the following groups, the first is pleasure, recreation or holiday, and the second is business, \n\nvisiting friends and relatives, health or religion. Learn more in: The Economic Impacts of COVID-19 on the Tourism Global Value Chain</string>
+    <string name="city_list">City</string>
+    <string name="profile">Traveler</string>
+    <string name="deleted">Delete City</string>
+    <string name="cityList">Cities</string>
+    <string name="delete">We have not deleted items of yet</string>
+</resources>
