@@ -20,7 +20,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.madonasyombua.composebasics.favoritecity.City
+import com.madonasyombua.traveller.data.City
 import com.madonasyombua.traveller.R
 
 @Composable

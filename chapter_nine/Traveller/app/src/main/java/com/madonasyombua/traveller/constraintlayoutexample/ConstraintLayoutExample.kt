@@ -66,7 +66,7 @@ fun AndroidCommunity() {
 @Preview(showBackground = true)
 @Composable
 fun ShowAndroidCommunity() {
-    TravellerTheme() {
+    TravellerTheme {
         AndroidCommunity()
     }
 }

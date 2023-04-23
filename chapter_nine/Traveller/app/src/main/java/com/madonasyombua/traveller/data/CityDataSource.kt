@@ -1,6 +1,5 @@
 package com.madonasyombua.traveller.data
 
-import com.madonasyombua.composebasics.favoritecity.City
 import com.madonasyombua.traveller.R
 
 object CityDataSource {
