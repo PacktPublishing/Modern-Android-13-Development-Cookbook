@@ -1,4 +1,4 @@
-package com.madonasyombua.composebasics.favoritecity
+package com.madonasyombua.traveller.data
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes

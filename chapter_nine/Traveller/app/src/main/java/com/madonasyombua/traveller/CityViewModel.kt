@@ -2,7 +2,7 @@ package com.madonasyombua.traveller
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.madonasyombua.composebasics.favoritecity.City
+import com.madonasyombua.traveller.data.City
 import com.madonasyombua.traveller.data.CityRepository
 import com.madonasyombua.traveller.data.CityRepositoryImpl
 import kotlinx.coroutines.flow.MutableStateFlow
