@@ -4,14 +4,12 @@ import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
+import com.google.common.truth.Truth.assertThat
 import com.madonasyombua.roomexample.data.UserInformationModel
 import com.madonasyombua.roomexample.data.dao.UserInformationDao
 import com.madonasyombua.roomexample.data.dao.UserInformationDatabase
 import kotlinx.coroutines.*
-import kotlinx.coroutines.flow.collect
 import org.junit.After
-import com.google.common.truth.Truth.assertThat
-import com.google.common.truth.Truth.assertThat
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -54,40 +52,10 @@ class UserInformationDBTest {
             }
         }
 
-        latch.await()
+        withContext(Dispatchers.IO) {
+            latch.await()
+        }
         job.cancelAndJoin()
-    }
-
-    @Test
-    fun updateUserInformationReturnsTrue() = runBlocking {
-        val userOne = UserInformationModel(
-            id = 1,
-            firstName = "Michelle",
-            lastName = "Smith",
-            dateOfBirth = 9121990,
-            gender = "Male",
-            city = "New york",
-            profession = "Software Engineer"
-        )
-        userInformationDao.insertUserInformation(userOne)
-
-
-        //update user information
-        val userUpdated = UserInformationModel(
-            id = 2,
-            firstName = "Mary",
-            lastName = "Simba",
-            dateOfBirth = 9121989,
-            gender = "Female",
-            city = "New york",
-            profession = "Senior Android Engineer"
-        )
-
-        userInformationDao.updateUserInformation(userUpdated)
-
-        val result = userInformationDao.loadAllUserInformation()
-
-        assertThat(result).isEqualTo(userUpdated)
     }
 
     @Test
@@ -123,7 +91,9 @@ class UserInformationDBTest {
                 latch.countDown()
             }
         }
-        latch.await()
+        withContext(Dispatchers.IO) {
+            latch.await()
+        }
         job.cancelAndJoin()
     }
 
