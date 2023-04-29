@@ -98,7 +98,6 @@ fun PasswordInputField(
 }
 
 
-@OptIn(ExperimentalComposeUiApi::class)
 @Composable
 fun LoginButton(
     isLoading: Boolean,
