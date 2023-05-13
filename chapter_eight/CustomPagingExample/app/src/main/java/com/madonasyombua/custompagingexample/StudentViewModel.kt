@@ -10,7 +10,7 @@ import com.madonasyombua.custompagingexample.data.StudentRepository
 import com.madonasyombua.custompagingexample.uistate.UIState
 import kotlinx.coroutines.launch
 
-class StudentViewModel() : ViewModel() {
+class StudentViewModel : ViewModel() {
     private val studentRepository = StudentRepository()
     var state by mutableStateOf(UIState())
 
@@ -28,6 +28,7 @@ class StudentViewModel() : ViewModel() {
             )
         }
     )
+
     init {
         loadStudentProfile()
     }

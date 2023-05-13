@@ -1,7 +1,6 @@
 package com.madonasyombua.custompagingexample.data
 
 import kotlinx.coroutines.delay
-
 class StudentRepository {
 
     private val ourDataSource = (1..100).map {
