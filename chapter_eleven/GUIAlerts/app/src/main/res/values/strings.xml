@@ -12,4 +12,5 @@
     <string name="content">Bottom Sheet Dialog Content 1</string>
     <string name="content_2">Bottom Sheet Dialog Content 2</string>
     <string name="add">Add</string>
+    <string name="add_item">Add item</string>
 </resources>

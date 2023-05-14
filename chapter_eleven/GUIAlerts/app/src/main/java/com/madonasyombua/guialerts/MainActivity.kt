@@ -10,9 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.madonasyombua.guialerts.components.ActionComponentsExample
 import com.madonasyombua.guialerts.components.OurMenu
-import com.madonasyombua.guialerts.components.RadioButtonExample
 import com.madonasyombua.guialerts.ui.theme.GUIAlertsTheme
 
 class MainActivity : ComponentActivity() {
@@ -25,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                   OurMenu()
+                    OurMenu()
                 }
             }
         }

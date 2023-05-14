@@ -2,7 +2,6 @@ package com.madonasyombua.guialerts.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
@@ -13,7 +12,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.madonasyombua.guialerts.R
 import kotlinx.coroutines.launch
 
-@OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterialApi::class)
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun BottomSheetDialogExample() {
     var openBottomSheet by rememberSaveable { mutableStateOf(false) }
