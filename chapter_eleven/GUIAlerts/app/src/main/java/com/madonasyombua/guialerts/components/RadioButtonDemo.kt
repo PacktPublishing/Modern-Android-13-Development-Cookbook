@@ -2,6 +2,7 @@ package com.madonasyombua.guialerts.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
@@ -18,7 +19,7 @@ fun RadioButtonExample() {
     val choices = listOf("Mangoes", "Avocado", "Oranges")
     var selectedOption by remember { mutableStateOf(choices[0]) }
 
-    Column {
+    Column(modifier = Modifier.fillMaxSize()) {
         choices.forEach { option ->
             Row(
                 Modifier

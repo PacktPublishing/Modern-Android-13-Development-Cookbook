@@ -57,7 +57,7 @@ fun OurMenu() {
                     onDismissRequest = { expanded = false }
                 ) {
 
-                    menuItems.forEachIndexed { index, item ->
+                    menuItems.forEachIndexed { _, item ->
                         DropdownMenuItem(text = { Text(item) }, onClick = {
                             coroutineScope.launch {
                                 snackbarHostState.showSnackbar(
