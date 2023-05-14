@@ -1,9 +1,13 @@
 package com.madonasyombua.traveller.constraintlayoutexample
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
@@ -19,8 +23,9 @@ import com.madonasyombua.traveller.ui.theme.TravellerTheme
 
 @Composable
 fun AndroidCommunity() {
-    ConstraintLayout {
+    ConstraintLayout(modifier = Modifier.fillMaxSize()) {
         val (title, aboutCommunity, androidImage) = createRefs()
+        val guideline = createGuidelineFromStart(0.3f)
         Text(
             text = stringResource(id = R.string.android_community),
             modifier = Modifier
@@ -40,12 +45,14 @@ fun AndroidCommunity() {
             text = stringResource(id = R.string.about_community),
             modifier = Modifier
                 .constrainAs(aboutCommunity) {
-                    top.linkTo(title.bottom)
+                    top.linkTo(parent.top)
                     start.linkTo(parent.start)
                     end.linkTo(parent.end)
                     width = Dimension.fillToConstraints
                 }
-                .padding(top = 12.dp, start = 12.dp, end = 12.dp),
+                .fillMaxWidth()
+                .wrapContentWidth(Alignment.Start)
+                .padding(top = 42.dp, start = 12.dp, end = 12.dp),
             style = TextStyle(
                 fontSize = 18.sp
             )

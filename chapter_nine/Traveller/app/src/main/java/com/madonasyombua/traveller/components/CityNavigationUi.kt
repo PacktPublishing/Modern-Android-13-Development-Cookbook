@@ -10,7 +10,6 @@ import androidx.navigation.compose.rememberNavController
 import com.madonasyombua.traveller.CityViewModel
 import kotlinx.coroutines.launch
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun CityUi(
     modifier: Modifier = Modifier,
