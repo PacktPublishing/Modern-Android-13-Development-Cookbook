@@ -1,6 +1,6 @@
 # Modern Android 13 Development Cookbook
 
-<a href="https://www.packtpub.com/product/modern-android-13-development-cookbook/9781803235578?utm_source=github&utm_medium=repository&utm_campaign=9781803235851"><img src="" alt="" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/product/modern-android-13-development-cookbook/9781803235578?utm_source=github&utm_medium=repository&utm_campaign=9781803235851"><img src="https://content.packt.com/B18827/cover_image_small.jpg" alt="" height="256px" align="right"></a>
 
 This is the code repository for [Modern Android 13 Development Cookbook](https://www.packtpub.com/product/modern-android-13-development-cookbook/9781803235578?utm_source=github&utm_medium=repository&utm_campaign=9781803235851), published by Packt.
 
