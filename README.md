@@ -7,6 +7,7 @@ This is the code repository for [Modern Android 13 Development Cookbook](https:/
 **Over 70 recipes to solve Android development issues and create better apps with Kotlin and Jetpack Compose**
 
 ## What is this book about?
+Android is a powerful operating system widely used in various devices, phones, TVs, wearables, automobiles, and more. This Android cookbook will teach you how to leverage the latest Android development technologies for creating incredible applications while making effective use of popular Jetpack libraries. You’ll also learn which critical principles to consider when developing Android apps.
 
 This book covers the following exciting features:
 * Use Kotlin programming to build your Android applications
