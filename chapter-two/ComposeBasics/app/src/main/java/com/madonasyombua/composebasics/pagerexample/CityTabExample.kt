@@ -43,7 +43,7 @@ fun CityTabCarousel(
     )
 ) {
     val context = LocalContext.current
-    var pagerState = rememberPagerState()
+    val pagerState = rememberPagerState()
     val coroutineScope = rememberCoroutineScope()
 
     Column {

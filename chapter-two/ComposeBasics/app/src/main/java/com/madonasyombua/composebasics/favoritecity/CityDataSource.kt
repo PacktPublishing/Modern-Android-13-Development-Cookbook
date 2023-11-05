@@ -4,7 +4,7 @@ import com.madonasyombua.composebasics.R
 
 class CityDataSource {
     fun loadCities(): List<City> {
-        return listOf<City>(
+        return listOf(
             City(R.string.spain, R.drawable.spain),
             City(R.string.new_york, R.drawable.newyork),
             City(R.string.tokyo, R.drawable.tokyo),

@@ -1,10 +1,8 @@
 package com.madonasyombua.composebasics
 
-import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -20,7 +18,6 @@ import com.madonasyombua.composebasics.components.ElevatedButtonExample
 import com.madonasyombua.composebasics.components.ImageViewExample
 import com.madonasyombua.composebasics.components.NotOutlinedEditTextExample
 import com.madonasyombua.composebasics.components.RoundCornerShapeButton
-import com.madonasyombua.composebasics.pagerexample.CityTabCarousel
 import com.madonasyombua.composebasics.ui.theme.ComposeBasicsTheme
 
 class MainActivity : ComponentActivity() {
