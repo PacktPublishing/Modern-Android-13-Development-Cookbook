@@ -66,7 +66,7 @@ fun UserInfoScreen(userInfoViewModel: UserInfoViewModel) {
             modifier = Modifier
                 .fillMaxWidth()
                 .height(150.dp)
-                .background(color = colorResource(id = R.color.black))
+                .background(color = colorResource(id = R.color.purple_700))
                 .padding(20.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
@@ -80,7 +80,7 @@ fun UserInfoScreen(userInfoViewModel: UserInfoViewModel) {
             shape = RoundedCornerShape(topStart = 12.dp, topEnd = 12.dp),
             modifier = Modifier
                 .fillMaxWidth()
-                .background(color = colorResource(id = R.color.black))
+                .background(color = colorResource(id = R.color.purple_700))
                 .weight(5.0f), elevation = 8.dp
         ) {
             Column(

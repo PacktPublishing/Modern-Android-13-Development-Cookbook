@@ -3,7 +3,7 @@ package com.madonasyombua.roomexample.service
 import com.madonasyombua.roomexample.data.UserInfo
 import com.madonasyombua.roomexample.data.UserInformationModel
 import com.madonasyombua.roomexample.data.dao.UserInformationDao
-import kotlinx.coroutines.FlowPreview
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.flow.flatMapConcat
 import kotlinx.coroutines.flow.map
@@ -11,11 +11,11 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
-@OptIn(FlowPreview::class)
 class UserInfoServiceImpl @Inject constructor(
     private val userInformationDao: UserInformationDao
 ) : UserInfoService {
 
+    @OptIn(ExperimentalCoroutinesApi::class)
     override fun getUserInformationFromDB() =
         userInformationDao.getUsersInformation().filter { information ->
             information.isNotEmpty()
