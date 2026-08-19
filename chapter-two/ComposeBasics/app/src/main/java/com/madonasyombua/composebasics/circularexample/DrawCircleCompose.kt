@@ -50,8 +50,8 @@ fun CircleProgressIndicatorExample(tracker: Float, progress: Float) {
 }
 
 private fun progress(tracker: Float, progress: Float): Float {
-    val totalProgress = (progress * 100) / tracker
-    return ((360 * totalProgress) / 100)
+    val totalProgress = progress / tracker
+    return (360 * totalProgress)
 }
 
 @Preview(showBackground = true)
